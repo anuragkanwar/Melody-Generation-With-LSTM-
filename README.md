@@ -5,10 +5,24 @@
 
 This project focuses on the idea that the audio data is also sequential data where it can be considered as a signal which has modulation with time similarly to the launguage processing data where new word points are collected in a  sequence with time values.
 
+![LSTM](https://user-images.githubusercontent.com/43870662/181872132-717809d6-4725-4e49-b8a9-5db5c9635458.png)
+
+
 ## Results
+
+Output 0 | Output 1 | Output 2 | Output 3
+:-: | :-: | :-: | :-:
+<video src='https://user-images.githubusercontent.com/43870662/181871833-abe70431-0d84-47c8-8bf5-8b17d2a8ed8c.mp4' width=88/> | <video src='https://user-images.githubusercontent.com/43870662/181871868-2661c678-9286-4833-aa9b-84342bf84fd1.mp4' width=88/> | <video src='https://user-images.githubusercontent.com/43870662/181872089-25f80b9c-9ae5-4854-b140-c03fc28d802a.mp4' width=88/> |<video src='https://user-images.githubusercontent.com/43870662/181871869-ef9257ec-52b7-4f7e-9fc5-3e4a2bf21202.mp4' width=88/>
+
+
+
+
 
 ## Architecture
 The model consists of simple LSTM architecture. LSTM refers Long Short Term Memory which stores previous information of data points to predict next data point. So here we have used a simple yet powerfull architecture to predict the next sequence of music notes to generate melody.
+
+![Architecture](https://user-images.githubusercontent.com/43870662/181872130-29ebab4e-6fc4-4f41-b792-9bbec38dc60a.png)
+
 
 ## Dataset
 File Used map notes to a number : [mapping.json](https://drive.google.com/file/d/1-58w_I8uzKFtp1kVk3DWZvAD9EhCO4al/view?usp=sharing)
